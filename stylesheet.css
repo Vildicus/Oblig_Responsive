@@ -1,9 +1,10 @@
 /*Funnet https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face*/
+
 @font-face {
     font-family: "Kollektif";
     src: url('fonts/Kollektif.woff');
-  }
- 
+}
+
 body {
     margin: 0;
     font-family: Kollektif, Arial, Verdana, sans-serif;
@@ -12,22 +13,17 @@ body {
     color: white;
 }
 
-
 /* Sentrerer bilder, hentet fra w3school */
+
 img {
     display: block;
     overflow: hidden;
-    margin-left: auto;
-    margin-right: auto;
-    margin-bottom: 10px;
-    width: 70%;
-    }
-
-h2{
-    text-align: center;
+    width: 100%
 }
 
-
+h2 {
+    text-align: center;
+}
 
 /* Linkatributter hentet fra w3school */
 
@@ -64,7 +60,7 @@ a:active {
     width: 100%;
     top: 0;
     text-align: center;
-    }
+}
 
 /* header hover hentet fra w3school */
 
@@ -82,29 +78,21 @@ a:active {
     color: black;
 }
 
-.center-menu{
+.center-menu {
     margin: auto;
 }
+
 /* sørger for at menyen ikke dekker over skriften*/
 
 .main {
     margin-top: 50px;
 }
 
-.backround-image-container {
+.background-image-container {
     background-image: url('img/Forsidebilde.jpg');
     height: 500px;
     padding-top: 100px;
 }
-
-/*.image-container {
-    border-style: solid;
-    border-width: 5px;
-    border-color: rgb(85, 78, 86);
-    border-bottom: ;
-
-}
-*/
 
 .divider-line {
     width: 25%;
@@ -112,6 +100,14 @@ a:active {
     height: 2px;
     border-width: 0;
     background-color: hotpink;
+}
+
+.divider-line-history {
+    width: 25%;
+    color: rgb(163, 152, 156);
+    height: 2px;
+    border-width: 0;
+    background-color: rgb(163, 152, 156);
 }
 
 .text-box-missionstatement {
@@ -126,31 +122,27 @@ a:active {
 
 .history-text-box {
     text-align: center;
-    margin-left: 200px;
-    margin-right: 200px;
-    margin-top: 50px;
-    margin-bottom: 50px;
+        margin: 50px auto;
+        max-width: 500px;
 }
 
 .botom-pictures-container {
     display: flex;
+    justify-content: space-evenly; /* så flex kan ha riktig mellomrom */
     margin-bottom: 50px;
 }
 
-.mentors {
-    flex: auto;
+.side-by-side {
     text-align: center;
+    width: 25%
 }
 
-.innovation-camp {
-    flex: auto;
-    text-align: center;
-}
-
-.contact {
-    flex: auto;
-    text-align: center;
-}
+/* .image-container {
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10px;
+    width: 70%;
+} */
 
 .to-the-top {
     text-align: center;
@@ -171,21 +163,22 @@ a:active {
     background-color: rgb(163, 152, 156);
 }
 
-
 /* usikker på hvordan disse funker men har lagt de til...*/
-.col-text-responsive{
-  width: 100%;
+
+.col-text-responsive {
+    width: 100%;
 }
 
-.col-image-responsive{
-  width: 100%
+.col-image-responsive {
+    width: 100%
 }
 
-@media only screen and (min-width: 600px;) {
-  .col-text-responsive{
-    width: 50%;
-  }
-  .col-imgage-responsive{
-    width: 50%;
-  }
+@media only screen and (min-width: 600px;
+) {
+    .col-text-responsive {
+        width: 50%;
+    }
+    .col-imgage-responsive {
+        width: 50%;
+    }
 }
