@@ -84,7 +84,7 @@ a:active {
 }
 
 .backround-image-container {
-    background-image: url('img_Forsidebilde.jpg');
+    background-image: url('img/Forsidebilde.jpg');
 }
 
 .image-container {
@@ -124,8 +124,12 @@ a:active {
 
 .footer{
     display: flex;
+    bottom: 0;
+    position: fixed;
+    width: 100%;
 }
 
 .contact-info {
     flex: auto;
+    background-color: rgb(163, 152, 156);
 }
