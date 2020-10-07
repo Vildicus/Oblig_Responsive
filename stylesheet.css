@@ -17,10 +17,9 @@ h2{
 }
 /* Sentrerer bilder, hentet fra w3school */
 .center {
-  display: block;
   margin-left: auto;
   margin-right: auto;
-  width: 50%;
+  width: 70%;
 }
 
 /* Linkatributter hentet fra w3school */
@@ -81,19 +80,6 @@ a:active {
 
 .main {
     margin-top: 50px;
-}
-
-.underline {
-    text-decoration-line: underline;
-    text-decoration: underline;
-}
-
-.color-underline-inova {
-    text-decoration-color: rgb(97, 121, 131);
-}
-
-.color-underline-history {
-    text-decoration-color: rgb(163, 152, 156);
 }
 
 .backround-image-container {
