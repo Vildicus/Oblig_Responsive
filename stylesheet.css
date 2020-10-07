@@ -65,7 +65,7 @@ a:active {
     margin-top: 50px;
 }
 
-.underline{
+.underline {
     text-decoration-line: underline;
     text-decoration: underline;
     text-decoration-color: rgb(97, 121, 131);
@@ -73,8 +73,13 @@ a:active {
 
 .backround-image-container {
     background-image: url('img_Forsidebilde.jpg');
-    }
-.text-boxs-missionstatement{
+}
+
+.image-container {
+
+}
+
+.text-boxs-missionstatement {
     background-color: rgb(163, 152, 156);
     color: white;
     border-style: solid;
@@ -82,18 +87,28 @@ a:active {
     border-color: rgb(85, 78, 86);
 }
 
-.history-text-boxs{
-
-
-}
-.botom-pictures-container{
+.history-text-boxs {
 
 }
 
-.to-the-top{
-
-}
-
-.contact{
+.botom-pictures-container {
     
+}
+
+.mentors{
+
+}
+.innovation-camp{
+
+}
+.contact{
+
+}
+
+.to-the-top {
+
+}
+
+.contact-info {
+
 }
