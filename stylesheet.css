@@ -96,14 +96,14 @@ a:active {
 
 .divider-line {
     width: 25%;
-    color: hotpink;
+    color:rgb(97, 121, 131);
     height: 2px;
     border-width: 0;
-    background-color: hotpink;
+    background-color:rgb(97, 121, 131);
 }
 
 .divider-line-history {
-    width: 25%;
+    width: 10%;
     color: rgb(163, 152, 156);
     height: 2px;
     border-width: 0;
