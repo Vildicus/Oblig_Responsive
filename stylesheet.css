@@ -1,26 +1,26 @@
 body {
     margin: 0;
-    font-family: Kollektif, Arial, Verdana;
+    font-family: Kollektif regular, Arial, Verdana, sans-serif;
     overflow: auto;
     background-color: rgb(97, 121, 131);
     color: white;
 }
 
+/* Sentrerer bilder, hentet fra w3school */
 img {
     display: block;
     overflow: hidden;
-    width: 200px;
-}
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10px;
+    width: 70%;
+    }
 
 h2{
     text-align: center;
 }
-/* Sentrerer bilder, hentet fra w3school */
-.center {
-  margin-left: auto;
-  margin-right: auto;
-  width: 70%;
-}
+
+
 
 /* Linkatributter hentet fra w3school */
 
@@ -145,6 +145,7 @@ a:active {
 
 .to-the-top {
     text-align: center;
+    margin-top: 100px;
     margin-bottom: 50px;
 }
 
