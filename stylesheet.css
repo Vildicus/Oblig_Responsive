@@ -131,8 +131,8 @@ a:active {
 
 .history-text-box {
     text-align: center;
-    margin-left: 100px;
-    margin-right: 100px;
+    margin-left: 200px;
+    margin-right: 200px;
     margin-top: 50px;
     margin-bottom: 50px;
 }
@@ -172,4 +172,23 @@ a:active {
 .contact-info {
     flex: auto;
     background-color: rgb(163, 152, 156);
+}
+
+
+/* usikker på hvordan disse funker men har lagt de til...*/
+.col-text-responsive{
+  width: 100%;
+}
+
+.col-image-responsive{
+  width: 100%
+}
+
+@media only screen and (min-width: 1100px;) {
+  .col-text-responsive{
+    width: 50%;
+  }
+  .col-imgage-responsive{
+    width: 50%;
+  }
 }
