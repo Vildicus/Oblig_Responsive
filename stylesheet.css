@@ -18,7 +18,7 @@ h2{
 /* Linkatributter hentet fra w3school */
 
 a:link {
-    color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
     font-style: italic;
     font-weight: bolder;
 }
@@ -116,9 +116,16 @@ a:active {
     border-color: rgb(85, 78, 86);
     width: 400px;
     margin: 0 auto;
+    text-align: center;
 }
 
-.history-text-box {}
+.history-text-box {
+    text-align: center;
+    margin-left: 500px;
+    margin-right: 500px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
 
 .botom-pictures-container {
     display: flex;
