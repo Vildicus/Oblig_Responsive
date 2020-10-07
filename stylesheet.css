@@ -6,6 +6,10 @@ body {
     color: white;
 }
 
+img {
+    display: block;
+}
+
 /* Linkatributter hentet fra w3school */
 
 a:link {
@@ -83,7 +87,9 @@ a:active {
     background-image: url('img_Forsidebilde.jpg');
 }
 
-.image-container {}
+.image-container {
+    
+}
 
 .text-boxs-missionstatement {
     background-color: rgb(163, 152, 156);
