@@ -1,3 +1,19 @@
 body {
     background-color: rgb(85, 78, 86)
 }
+
+h1 {
+  margin-bottom: -15px;
+}
+
+.touch {
+  font-size: 20px;
+  margin-bottom: 0px;
+  margin-top: 5px;
+}
+
+.info {
+  font-size: 20px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
