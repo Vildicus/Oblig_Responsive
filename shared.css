@@ -29,14 +29,13 @@ h2 {
 
 a:link {
     color: rgb(255, 255, 255);
-    font-style: italic;
     font-weight: bolder;
 }
 
 a:visited {
-    color: rgb(137, 124, 126);
+    color: rgb(255, 255, 255);
     background-color: transparent;
-    text-decoration: none;
+    text-decoration: underline;
 }
 
 a:hover {
@@ -101,12 +100,14 @@ a:active {
     bottom: 0;
     width: 100%;
     text-align: center;
-    height: 100px;
+    align-items: center;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    background-color: rgb(163, 152, 156);
 }
 
 .contact-info {
     flex: auto;
-    background-color: rgb(163, 152, 156);
 }
 
 /* usikker på hvordan disse funker men har lagt de til...*/
