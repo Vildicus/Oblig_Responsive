@@ -9,6 +9,7 @@ body {
 img {
     display: block;
     overflow: hidden;
+    width: 200px;
 }
 
 h2{
