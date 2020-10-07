@@ -2,6 +2,7 @@ body {
     margin: 0;
     font-family: Arial, Verdana, sans-serif;
     overflow: auto;
+    background-color: rgb(97, 121, 131);
 }
 
 /* Linkatributter hentet fra w3school */
@@ -64,13 +65,35 @@ a:active {
     margin-top: 50px;
 }
 
+.underline{
+    text-decoration-line: underline;
+    text-decoration: underline;
+    text-decoration-color: rgb(97, 121, 131);
+}
+
 .backround-image-container {
     background-image: url('img_Forsidebilde.jpg');
     }
-.text-boxs{
+.text-boxs-missionstatement{
     background-color: rgb(163, 152, 156);
     color: white;
     border-style: solid;
     border-width: 5px;
     border-color: rgb(85, 78, 86);
+}
+
+.history-text-boxs{
+
+
+}
+.botom-pictures-container{
+
+}
+
+.to-the-top{
+
+}
+
+.contact{
+    
 }
