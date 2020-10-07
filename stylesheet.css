@@ -122,4 +122,10 @@ a:active {
     text-align: center;
 }
 
-.contact-info {}
+.footer{
+    display: flex;
+}
+
+.contact-info {
+    flex: auto;
+}
