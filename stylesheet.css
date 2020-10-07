@@ -33,7 +33,7 @@ a:active {
 /* endrer farge på header, setter høyden til 50px, sørger for at den blir med på scrolling, går over hele skjermen horisontalt, at den er helt i toppen og tekst på riktig sted*/
 
 .header {
-    background-color: rgb(255, 239, 224);
+    background-color: rgb(97, 121, 131);
     height: 50px;
     position: fixed;
     width: 100%;
@@ -64,18 +64,9 @@ a:active {
     margin-top: 50px;
 }
 
-.image-container {
-    overflow: hidden;
-    width: 100%;
-    text-align: center;
-    position: relative;
-}
-
-/* hvordan få text til å ligge over bildet på forsiden*/
-
-.text-within-image {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+.backround-image-container {
+    background-image: url('img_Forsidebilde.jpg');
+    }
+.text-boxs{
+    background-color: rgb(163, 152, 156);
 }
