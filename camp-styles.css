@@ -1,4 +1,9 @@
 
+body {
+    background-color: rgb(85, 78, 86);
+    text-align: center;
+}
+
 table, th, td {
   border: 1px solid black;
   border-collapse: collapse;
@@ -13,4 +18,10 @@ table {
 th, td {
   padding: 15px;
   text-align: center;
+}
+.time {
+  color: rgb(97, 121, 131);
+}
+.margin {
+  margin-bottom: 50px;
 }
