@@ -50,3 +50,18 @@ th, td {
     border-width: 0;
     background-color: rgb(163, 152, 156);
 }
+
+.schedule {
+  padding-top: 30px;
+  font-size: 35px;
+  margin-bottom: 0px;
+}
+
+.when {
+  font-size: 20px;
+}
+
+.place {
+  font-size: 20px;
+  margin-top: -10px;
+}
