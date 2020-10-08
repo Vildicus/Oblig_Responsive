@@ -2,12 +2,21 @@ body{
     background-color: rgb(85, 78, 86);
 }
 
+h1 {
+  margin-bottom: 0px;
+}
+
+h3 {
+  font-size: 20px;
+}
+
 .mentors-text-box {
     text-align: center;
         margin: 50px auto;
         max-width: 650px;
         font-size: 20px;
         padding: 50px 40px 0 40px;
+        padding-bottom: 30px;
 }
 
 .break-line{
@@ -28,6 +37,10 @@ body{
 .side-by-side {
     text-align: center;
     width: 25%;
+}
+
+.footer {
+  margin-top: 140px;
 }
 
 @media only screen and (max-width: 600px) {
