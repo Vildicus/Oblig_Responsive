@@ -34,3 +34,11 @@ th, td {
 .margin {
   margin-bottom: 50px;
 }
+
+.text-box{
+  text-align: center;
+  margin: 50px auto;
+  max-width: 650px;
+  font-size: 20px;
+  padding: 40px 0 40px;
+}
