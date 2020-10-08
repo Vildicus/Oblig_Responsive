@@ -110,22 +110,25 @@ a:active {
     flex: auto;
 }
 
-/* usikker på hvordan disse funker men har lagt de til...*/
-
-.col-text-responsive {
+/* Fra tengel sine bokser*/
+* {
+    box-sizing: border-box;
+  }
+  
+  .col-text-responsive {
     width: 100%;
-}
-
-.col-image-responsive {
-    width: 100%
-}
-
-@media only screen and (min-width: 600px;
-) {
+  }
+  
+  .col-image-responsive {
+    width: 100%;
+  }
+  
+  @media only screen and (min-width: 1100px) {
     .col-text-responsive {
-        width: 50%;
+      width: 50%;
     }
-    .col-imgage-responsive {
-        width: 50%;
+    .col-image-responsive {
+      width: 50%;
     }
-}
+  }
+  
