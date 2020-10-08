@@ -1,10 +1,27 @@
 body {
-    background-color: rgb(85, 78, 86)
+  background-color: rgb(85, 78, 86)
 }
 
 h1 {
-  margin-bottom: -15px;
+  font-size: 40px
 }
+
+.contact-text-box {
+  text-align: center;
+  margin: 50px auto;
+  max-width: 650px;
+  font-size: 20px;
+  padding: 50px 40px 0 40px;
+}
+
+.contactinfo-text-box {
+  text-align: center;
+  margin: 50px auto;
+  max-width: 650px;
+  font-size: 20px;
+  padding: 20px 40px 0 40px;
+}
+
 
 .break-line {
   width: 20%;
@@ -12,15 +29,6 @@ h1 {
   height: 2px;
   background-color: rgb(163, 152, 156);
   border-width: 0;
-}
-
-.margins {
-  margin-top: 70px;
-  margin-bottom: 50px;
-}
-
-.center {
-  text-align: center;
 }
 
 .touch {
@@ -33,4 +41,36 @@ h1 {
   font-size: 20px;
   margin-top: 10px;
   margin-bottom: 10px;
+}
+
+.center{
+  text-align: center;
+}
+/*facebook and tweeter link from w3school */
+/* Style all font awesome icons */
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+}
+
+/* Add a hover effect if you want */
+.fa:hover {
+  opacity: 0.7;
+}
+
+/* Set a specific color for each brand */
+
+/* Facebook */
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+/* Twitter */
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
 }
