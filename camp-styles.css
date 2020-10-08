@@ -13,12 +13,21 @@ table, th, td {
 }
 table {
   width:50%;
+  background-color: white;
+  color: black;
 }
 
 th, td {
   padding: 15px;
   text-align: center;
 }
+
+.border{
+  border-style: solid;
+  border-width: 5px;
+  border-color: rgb(163, 152, 156);
+}
+
 .time {
   color: rgb(97, 121, 131);
 }
