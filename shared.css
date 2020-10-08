@@ -25,6 +25,12 @@ h2 {
     text-align: center;
 }
 
+.touch {
+  font-size: 20px;
+  margin-bottom: 0px;
+  margin-top: 5px;
+}
+
 /* Linkatributter hentet fra w3school */
 
 a:link {
