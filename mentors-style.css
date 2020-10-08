@@ -1,0 +1,11 @@
+.three-mentors-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly; /* så flex kan ha riktig mellomrom */
+    margin-bottom: 50px;
+    }
+
+.side-by-side {
+    text-align: center;
+    width: 25%;
+}
