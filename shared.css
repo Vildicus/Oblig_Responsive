@@ -84,10 +84,9 @@ a:active {
 /* sørger for at menyen ikke dekker over skriften*/
 
 .main {
-    margin-top: 50px;
+        max-width: 1000px;
+    margin: 50px auto 0 auto;
 }
-
-
 
 .to-the-top {
     text-align: center;
@@ -110,25 +109,13 @@ a:active {
     flex: auto;
 }
 
-/* Fra tengel sine bokser*/
-* {
-    box-sizing: border-box;
-  }
-  
-  .col-text-responsive {
-    width: 100%;
-  }
-  
-  .col-image-responsive {
-    width: 100%;
-  }
-  
-  @media only screen and (min-width: 1100px) {
-    .col-text-responsive {
-      width: 50%;
+@media only screen and (max-width: 800px) {
+    .footer {
+        display: block;
     }
-    .col-image-responsive {
-      width: 50%;
+   }
+@media only screen and (max-width: 400px) {
+    .header a{
+        padding: 14px 8px
     }
-  }
-  
+}

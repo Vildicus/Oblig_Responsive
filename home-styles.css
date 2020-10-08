@@ -39,7 +39,7 @@ h2 {
     border-style: solid;
     border-width: 5px;
     border-color: rgb(85, 78, 86);
-    width: 550px;
+    max-width: 550px;
     margin: 0 auto;
     text-align: center;
     padding-left: 40px;
@@ -51,11 +51,12 @@ h2 {
         margin: 50px auto;
         max-width: 650px;
         font-size: 20px;
-        padding-top: 50px;
+        padding: 50px 40px 0 40px;
 }
 
 .botom-pictures-container {
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-evenly; /* så flex kan ha riktig mellomrom */
     margin-bottom: 50px;
     padding-top: 130px;
@@ -68,4 +69,15 @@ h2 {
 
 .statement {
   font-size: 20px;
+}
+
+
+@media only screen and (max-width: 600px) {
+    .side-by-side {
+        width: 51%;
+        padding-top: 30px;
+    }
+    .botom-pictures-container {
+        padding-top: 0px;
+    }
 }
