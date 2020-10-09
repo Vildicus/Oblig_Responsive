@@ -37,6 +37,10 @@ h1 {
   margin-top: 5px;
 }
 
+.bold {
+  font-family: Kollektif-bold;
+}
+
 .info {
   font-size: 20px;
   margin-top: 10px;

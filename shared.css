@@ -3,7 +3,11 @@
 @font-face {
     font-family: "Kollektif";
     src: url('fonts/Kollektif.woff');
-}
+    }
+    
+    @font-face {
+    font-family: "Kollektif-bold";
+    src: url('fonts/Kollektif-Bold.woff')}
 
 body {
     margin: 0;
@@ -12,8 +16,6 @@ body {
     background-color: rgb(97, 121, 131);
     color: white;
 }
-
-/* Sentrerer bilder, hentet fra w3school */
 
 img {
     display: block;
