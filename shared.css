@@ -1,13 +1,18 @@
 /*Funnet https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face*/
 
+/* Font fra: https://www.cufonfonts.com/font/kollektif */
+
 @font-face {
     font-family: "Kollektif";
     src: url('fonts/Kollektif.woff');
-    }
-    
-    @font-face {
-    font-family: "Kollektif-bold";
-    src: url('fonts/Kollektif-Bold.woff')}
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: "Kollektif";
+    src: url('fonts/Kollektif-Bold.woff');
+    font-weight: bold; 
+}
 
 body {
     margin: 0;
@@ -28,16 +33,16 @@ h2 {
 }
 
 .touch {
-  font-size: 20px;
-  margin-bottom: 0px;
-  margin-top: 5px;
+    font-size: 20px;
+    margin-bottom: 0px;
+    margin-top: 5px;
 }
 
 /* Linkatributter hentet fra w3school */
 
 a:link {
     color: rgb(255, 255, 255);
-    font-weight: bolder;
+    font-weight: bold;
 }
 
 a:visited {
@@ -67,6 +72,7 @@ a:active {
     width: 100%;
     top: 0;
     text-align: center;
+    z-index: 1;
 }
 
 /* header hover hentet fra w3school */
@@ -92,7 +98,7 @@ a:active {
 /* sørger for at menyen ikke dekker over skriften*/
 
 .main {
-        max-width: 1500px;
+    max-width: 1500px;
     margin: 50px auto 0 auto;
 }
 
@@ -121,9 +127,10 @@ a:active {
     .footer {
         display: block;
     }
-   }
+}
+
 @media only screen and (max-width: 400px) {
-    .header a{
+    .header a {
         padding: 14px 8px
     }
 }
