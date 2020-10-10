@@ -47,7 +47,7 @@ a:visited {
 }
 
 a:hover {
-    color: rgb(139, 98, 105);
+    color: rgb(10, 10, 10);
     background-color: transparent;
     text-decoration: underline;
 }
